@@ -50,12 +50,12 @@ function Featured() {
             <span>
               {data[0].price_change_percentage_24h < 0 ? (
                 <span className="red">
-                  <FiArrowDown />
+                  <FiArrowDown className="icon" />
                   {data[0].price_change_percentage_24h.toFixed(2)}%
                 </span>
               ) : (
                 <span className="green">
-                  <FiArrowUpRight />
+                  <FiArrowUpRight className="icon" />
                   {data[0].price_change_percentage_24h.toFixed(2)}%
                 </span>
               )}
@@ -73,12 +73,12 @@ function Featured() {
             <span>
               {data[1].price_change_percentage_24h < 0 ? (
                 <span className="red">
-                  <FiArrowDown />
+                  <FiArrowDown className="icon" />
                   {data[1].price_change_percentage_24h.toFixed(2)}%
                 </span>
               ) : (
                 <span className="green">
-                  <FiArrowUpRight />
+                  <FiArrowUpRight className="icon" />
                   {data[1].price_change_percentage_24h.toFixed(2)}%
                 </span>
               )}
@@ -96,12 +96,12 @@ function Featured() {
             <span>
               {data[2].price_change_percentage_24h < 0 ? (
                 <span className="red">
-                  <FiArrowDown />
+                  <FiArrowDown className="icon" />
                   {data[2].price_change_percentage_24h.toFixed(2)}%
                 </span>
               ) : (
                 <span className="green">
-                  <FiArrowUpRight />
+                  <FiArrowUpRight className="icon" />
                   {data[2].price_change_percentage_24h.toFixed(2)}%
                 </span>
               )}
@@ -119,12 +119,12 @@ function Featured() {
             <span>
               {data[3].price_change_percentage_24h < 0 ? (
                 <span className="red">
-                  <FiArrowDown />
+                  <FiArrowDown className="icon" />
                   {data[3].price_change_percentage_24h.toFixed(2)}%
                 </span>
               ) : (
                 <span className="green">
-                  <FiArrowUpRight />
+                  <FiArrowUpRight className="icon" />
                   {data[3].price_change_percentage_24h.toFixed(2)}%
                 </span>
               )}
@@ -142,12 +142,12 @@ function Featured() {
             <span>
               {data[4].price_change_percentage_24h < 0 ? (
                 <span className="red">
-                  <FiArrowDown />
+                  <FiArrowDown className="icon" />
                   {data[4].price_change_percentage_24h.toFixed(2)}%
                 </span>
               ) : (
                 <span className="green">
-                  <FiArrowUpRight />
+                  <FiArrowUpRight className="icon" />
                   {data[4].price_change_percentage_24h.toFixed(2)}%
                 </span>
               )}
@@ -165,12 +165,12 @@ function Featured() {
             <span>
               {data[5].price_change_percentage_24h < 0 ? (
                 <span className="red">
-                  <FiArrowDown />
+                  <FiArrowDown className="icon" />
                   {data[5].price_change_percentage_24h.toFixed(2)}%
                 </span>
               ) : (
                 <span className="green">
-                  <FiArrowUpRight />
+                  <FiArrowUpRight className="icon" />
                   {data[5].price_change_percentage_24h.toFixed(2)}%
                 </span>
               )}
